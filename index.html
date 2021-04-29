@@ -3,46 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <title>Notorious the Ship | 15th century caravel</title>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <article class="container">
 <!-- callout -->        
         <section class="callout">
             <h1>Notorious the Ship</h1>
-            <p>A full-size recreation of a 15th Century ‘Age of Discovery’ Caravel. Designed and constructed solely by master shipbuilder Graeme Wylie</p>
-            <p><strong>Climb aboard and explore belowdecks for a truly unique experience!</strong></p>
-            <p><a href="#">Click here for info on our next Open Days </a></p>
-
+            <p class ="lead">A full-size recreation of a 15th Century ‘Age of Discovery’ Caravel. Designed and constructed solely by master shipbuilder Graeme Wylie</p>
+            <p><em>Climb aboard and explore belowdecks for a truly unique experience!</em> <a href="#">Click here</a> for info on our next Open Days.</p>
         </section>
+<hr>
 <!-- about -->
-        <section class="about"> 
-            <h2>About Notorious</h2>
+        <section class="about">
+            <h2 class="text-uppercase">About</h2> 
+            <h3  class="text-uppercase">Specs</h3>
             <p>Notorious is a full-sized recreation of a 15th Century caravel - the first style of ship to leave Europe to explore Africa, Asia, the America's and beyond. First attributed to Prince Henry the Navigator of Portugal, and quickly adopted by the Spanish.
             Her specs: 19m length (56ft), 5.5m beam (18ft), 2.1m draft (7ft), 60,000kgs. 
             Constructed entirely from reclaimed timber, mainly unwanted 100+ year old Monterey Cypress (Cupressus macrocarpa) rescued from bonfires on farms in Western Victoria. We are very proud that not a single tree was felled to build her.</p>
-            <h2>The Man and the Ship</h2>
-            <p>An enigmatic 'Renaissance man', a veritible genius and true visionary. This incredible, fully functional sailing ship was researched, designed and handcrafted by Graeme Wylie over the course of 10 years in Bushfield, Victoria, Australia. 
+            <p><a class="btn btn-sm btn-light">Read More</a></p>
+            <h3  class="text-uppercase">The Man and the Ship</h3>
+            <p>Graeme Wylie is an enigmatic 'Renaissance man', a veritible genius and true visionary. This incredible, fully functional sailing ship was researched, designed and handcrafted by Wylie over the course of 10 years in Bushfield, Victoria, Australia. 
             Wylie spent over two years researching historical Portuguese and Spanish vessels, in the process he taught himself nautical architecture and produced nine workbooks of calculations. Upon completion of her line drawings, Wylie constructed a working 1:16 model caravel which he put through a series of successful sea trails. 
             In February 2001 Wylie laid the keel and so began what was to be a further 9 years of solo construction. Wylie completed the build and readied her for launching. In what is arguable a nailbiting time for any shipbuilder, Wylie sucessfully launched Notorious in February 2010 at Martin's Point, Port Fairy, Victoria.
             Upon completetion of her kitout, Wylie captained Notorious on her maiden voyage, departing Port Fairy at dawn on Feb 9th 2011 with a crew of family and friends. Three beautiful days and nights at sea culminated in Wylie and crew dropping Notorious' anchor in Corio Bay, Geelong, Victoria.</p>
-            <h2>At Home on the Sea</h2>
-            <p>Since her launch in 2011, Notorious has sailed on average 2000nm per year, traversing various coastlines, ancorages and ports of Australia's east coast, welcoming excited visitors aboard, young and old, (and sometimes giving the ocassional boat a fright out on the open water). Notorious has delighted and awed every person who has seen her, she is truly a unique vessel, she draws attention everywhere she goes.
+                        <p><a class="btn btn-sm btn-light">Read More</a></p>
+            <h3  class="text-uppercase">At Home on the Sea</h3>
+            <p>Since her launch in 2011, Notorious has sailed on average 2000nm per year, traversing various coastlines, ancorages and ports of Australia's east coast, welcoming excited visitors aboard, young and old. Notorious with Graeme and Felicite aboard are at home on the open ocean, from a 30 knot Westerly in the Southern Ocean to a quiet bay in the Whitsundays (and sometimes giving the occasional boat a fright out on the open seas).            
+                <p><a class="btn btn-sm btn-light">Read More</a></p>
             </p>
             <!-- photos here-->
 
         </section>
+<hr>
 <!-- calendar -->
         <section class="upcoming">
-            <h2>Upcoming open days</h2>
+            <h3  class="text-uppercase">Upcoming open days</h3>
             <p>Please note: all open days are weather-permitting, last minute changes can be found on our Facebook page</p>
-            
+            <h5  class="text-uppercase">Calendar</h5>
             <div class="container theme-showcase">
-  <h1>Calendar</h1>
+            
 <div id="holder" class="row" ></div>
 </div>
-
-
 <script type="text/tmpl" id="tmpl">
   {{ 
   var date = date || new Date(),
@@ -190,38 +198,26 @@
     </tbody>
     {{ } }}
   </table>
+
 </script>
-
-
-
-<div class="container">
-  <hr>
-  <p>Resources</p>
-  <ul>
-    <li><a href="https://github.com/twbs/bootstrap">Bootstrap</a></li>
-    <li><a href="https://bootstrap-calendar.azurewebsites.net/index-bs3.html">another calendar</a></li>
-    <li><a href="http://www.bootply.com/rzNQTlDlFX">another calendar</a></li>
-    <li><a href="http://slipsum.com">lipsum generator</a></li>
-  </ul>
-</div>
-<div class="container">
-  <hr>
-  <p>Notes</p>
-  <ul>
-    <li>clicking on year to open and let you jump around 5ish years, don't care for current ui...</li>
-    <li>work needed on day mode (buggy, unfinished)</li>
-    <li>options missing still for classes</li>
-    <li>not sure about popover contents</li>
-    <li>? use of success state color and info state color ?</li>
-    <li><a href="http://www.reddit.com/r/css/comments/2gvw4n/i_refactored_my_less_to_follow_fats_guidelines/">can do better with css rules</a></li>
-  </ul>
-</div>
-
-
-
+        </section>
+<hr>
+<!---Contact--->
+        <section class="contactus">
+            <h3  class="text-uppercase">Contact Us</h3>
+            <p>Would you like to request an appearance, interview or press pack?</p>
+            <p>Please get in touch using the below form!</p>
+            <form>
+                <input type="text" name="name" />
+                <input type="text" name="email address" />
+                <input type="text" name="message" />
+                <input type="submit" value="Submit" />
+            </form>
+            <p>Or email us directly to notorioustheship (at) gmail (dot) com</p>
+            <p>Do you have an amazing photo of Notorious? We'd love to see! Tag us on social media or send us an email!</p>
+            <p><a href="https//:facebook.com/notorioustheship">Facebook</a> & Instagram</p>
         </section>
 
     </article>
-    
 </body>
 </html>
